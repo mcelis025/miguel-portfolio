@@ -21,7 +21,6 @@ function Contact() {
             <input id="contactEmail" type="email" className="validate"></input>
             <label for="contactEmail">Email</label>
             <span className="helper-text" data-error="Check Format"></span>
-
           </div>
         </div>
         <div className="row">
