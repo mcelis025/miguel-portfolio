@@ -1,21 +1,14 @@
 import React from "react";
-import { Player, ControlBar, LoadingSpinner } from "video-react";
 import "./style.css";
+import video from "../../images/testVid.mp4"
 
 function Nav() {
   return (
-    <div> 
-      <div> 
-        <Player
-          autoPlay
-          loop
-          muted
-          playsInline
-          src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4">
-          <ControlBar disabled />
-          <LoadingSpinner disabled />
-        </Player>
-      </div>
+    <div>
+      <video muted loop autoplay="autoplay" className="responsive-video" id="myVideo">
+        <source src={video} type="video/mp4"></source>
+        Your browser does not support HTML5 video.
+      </video>
     </div>
   );
 }
