@@ -1,6 +1,6 @@
 import React from "react";
 
-function PageNotFound() {
+function ErrorMsg() {
   return (
 
     <div className="container">
@@ -10,5 +10,4 @@ function PageNotFound() {
   );
 }
 
-export default PageNotFound;
-
+export default ErrorMsg;

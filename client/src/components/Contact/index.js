@@ -8,12 +8,12 @@ function Contact() {
       <form className="col s12">
         <div className="row">
           <div className="input-field col s6">
-            <input id="first_name" type="text" className="validate"></input>
-            <label for="first_name">First Name</label>
+            <input id="name" type="text" className="validate"></input>
+            <label for="name">Name</label>
           </div>
           <div className="input-field col s6">
-            <input id="last_name" type="text" className="validate"></input>
-            <label for="last_name">Last Name</label>
+            <input id="contactPhone" type="tel" className="validate"></input>
+            <label for="contactPhone">Phone</label>
           </div>
         </div>
         <div className="row">
@@ -21,12 +21,6 @@ function Contact() {
             <input id="contactEmail" type="email" className="validate"></input>
             <label for="contactEmail">Email</label>
             <span className="helper-text" data-error="Check Format"></span>
-          </div>
-        </div>
-        <div className="row">
-          <div className="input-field col s12">
-            <input id="contactPhone" type="tel" className="validate"></input>
-            <label for="contactPhone">Phone</label>
           </div>
         </div>
         <div className="row">
