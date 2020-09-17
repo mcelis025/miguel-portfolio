@@ -7,7 +7,7 @@ import "./style.css";
 
 function ContactBtns() {
   return (
-    <div className="row">  
+    <div className="container row">  
       <div className="col s12 m3 waves-effect center">
         <a href="https://linkedin.com/in/miguel-celis-3x11" target="_blank">
           <img src={linkedin} alt="linkedin" className="linkedin"></img> 
