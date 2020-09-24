@@ -3,7 +3,7 @@ import "./style.css";
 
 function Contact() {
   return (
-    <div className="container">  
+    <div className="container" id="contactLink">  
       <h1 className="center">contact.</h1>
       <div className="row">
         <form className="col s12">

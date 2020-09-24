@@ -4,7 +4,7 @@ import "./style.css";
 
 function About() {
   return (
-    <div>  
+    <div id="aboutLink">  
       <h1 className="center">about.</h1>
       <div className="row">
         <div className="col s12 m4 l4 responsive-img circle">
