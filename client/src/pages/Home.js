@@ -6,7 +6,6 @@ import Parallax from "../components/Parallax";
 import Contact from "../components/Contact";
 import ContactBtns from "../components/ContactBtns";
 import Float from "../components/Float";
-import Footer from "../components/Footer";
 import M from "materialize-css";
 
 class Home extends Component {
@@ -18,7 +17,7 @@ class Home extends Component {
   
   render() {
     return (
-      <div>
+      <>
         <Nav />
         <div className="container">
           <About />
@@ -33,8 +32,7 @@ class Home extends Component {
           <ContactBtns />
         </div>
         <Float />
-        <Footer />
-      </div>
+      </>
     );
   }
 }

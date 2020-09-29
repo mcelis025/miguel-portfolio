@@ -19,10 +19,10 @@
 .navigation {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    position:absolute;
-    top:0;
-    width:100%;
-    z-index:1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 .tabs {
@@ -32,9 +32,11 @@
 }
 
 .arrow {
-    margin-top: 4rem;
-    display: flex;
-    justify-content: center;
+    padding-top: 40rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .name {
