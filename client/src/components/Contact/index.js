@@ -10,28 +10,28 @@ function Contact() {
           <div className="row">
             <div className="input-field col s6">
               <input id="name" type="text" className="validate"></input>
-              <label for="name">Name.</label>
+              <label htmlFor="name">Name.</label>
             </div>
             <div className="input-field col s6">
               <input id="contactPhone" type="tel" className="validate"></input>
-              <label for="contactPhone">Phone.</label>
+              <label htmlFor="contactPhone">Phone.</label>
             </div>
           </div>
           <div className="row">
             <div className="input-field col s12">
               <input id="contactEmail" type="email" className="validate"></input>
-              <label for="contactEmail">Email.</label>
+              <label htmlFor="contactEmail">Email.</label>
               <span className="helper-text" data-error="Check Format"></span>
             </div>
           </div>
           <div className="row">
-            <div class="input-field col s12">
+            <div className="input-field col s12">
               <textarea id="contactMessage" className="materialize-textarea validate"></textarea>
-              <label for="contactMessage">Enter Your Message.</label>
+              <label htmlFor="contactMessage">Enter Your Message.</label>
             </div>
           </div>
-          <button class="btn btn-small right waves-effect waves-light black" type="submit" name="action">Send
-            <i class="material-icons right">send</i>
+          <button className="btn btn-small right waves-effect waves-light black" type="submit" name="action">Send
+            <i className="material-icons right">send</i>
           </button>
         </form>
       </div>

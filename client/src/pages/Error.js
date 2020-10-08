@@ -1,5 +1,5 @@
 import React from "react";
-import ErrorMsg from "../components/ErrorMsg";
+import ErrorMsg from "../components/ErrorMsg/index";
 
 
 function Error() {

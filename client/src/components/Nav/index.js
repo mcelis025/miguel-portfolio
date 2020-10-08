@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import video from "../../images/testVid.mp4";
+import video from "../../images/testVidCold.mp4";
 import logo from "../../images/newLogo3.png";
 import { Link } from "react-scroll";
 
@@ -22,9 +22,9 @@ function Nav() {
       </nav>
 
       <ul className="sidenav" id="mobileNav">
-        <li><Link to="aboutLink" smooth={true} duration={1000}>about</Link></li>
-        <li><Link to="projectsLink" smooth={true} duration={1000}>projects</Link></li>
-        <li><Link to="contactLink" smooth={true} duration={1000}>contact</Link></li>
+        <li key={""}><Link to="aboutLink" smooth={true} duration={1000}>about</Link></li>
+        <li key={""}><Link to="projectsLink" smooth={true} duration={1000}>projects</Link></li>
+        <li key={""}><Link to="contactLink" smooth={true} duration={1000}>contact</Link></li>
         <p className="center name">Miguel Celis</p>
       </ul>
 
@@ -37,7 +37,7 @@ function Nav() {
 
       <div className="arrow center-align hide-on-med-and-down">
         <Link to="aboutLink" smooth={true} duration={1000}>
-          <i class="medium material-icons white-text">keyboard_arrow_down</i>
+          <i className="medium material-icons white-text">keyboard_arrow_down</i>
         </Link>
       </div>
     </div>

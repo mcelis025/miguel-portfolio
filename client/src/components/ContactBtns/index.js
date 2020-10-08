@@ -20,12 +20,12 @@ function ContactBtns() {
       </div>
       <div className="col s12 m3 waves-effect center">
         <a href="mailto:mcelis025@gmail.com?subject=Miguel Celis Portfolio" target="_blank" rel="noopener noreferrer">
-          <i class="medium material-icons black-text">email</i>
+          <i className="medium material-icons black-text">email</i>
         </a>
       </div>
       <div className="col s12 m3 waves-effect center">
         <a href={resume} target="_blank" rel="noopener noreferrer">
-          <i class="medium material-icons black-text">description</i>
+          <i className="medium material-icons black-text">description</i>
         </a>
       </div>
     </div>
